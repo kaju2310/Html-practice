@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FlexBox</title>
+    <style>
+        .container
+        {
+            height: 500px;
+            width: 100%;
+            border: 2px solid black;
+            display: flex;
+             /* flex properties for flex container (default) */
+            flex-direction: row;  /*(Default value  is row) */
+            /* flex-direction: column; 
+            flex-direction: row-reverse;
+            flex-direction: column-reverse; */
+        }
+        .item
+        {
+            width: 100px;
+            height: 100px;
+            background-color: thistle;
+            border: 2px solid red;
+            margin: 10px;
+            padding: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS FlexBox Tutorials</h1>
+    <div class="container">
+        <div class="item" id="item1">First box</div>
+        <div class="item" id="item2">Second box</div>
+        <div class="item" id="item3">Third box</div>
+        <div class="item" id="item4">Fourth box</div>
+        <div class="item" id="item5">Fifth box</div>
+        <div class="item" id="item6">Sixth box</div>
+    </div>
+</body>
+</html>

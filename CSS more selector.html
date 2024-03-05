@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS More Selector</title>
+    <style>
+        h1{
+            background-color: yellow;
+            color: red;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* if p is contained by any li which contained by div  */
+        /* div li p
+        {
+            background-color: blanchedalmond;
+            color: black;
+            font-weight: bold;
+            font-size: 28px;
+        } */
+
+        /* if p is right inside div then this CSS will be applied  */
+        /* div > p
+        {
+            background-color: blanchedalmond;
+            color: black;
+            font-weight: bold;
+            font-size: 28px;
+        } */
+
+        if p is right after div    
+        div +p
+        {
+            background-color: rebeccapurple;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is no more selector</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item"><p>This is a my first page</p></li>
+                <li class="item"><p>This is a my  second page</p></li>
+                <li class="item"><p>This is a my third page</p></li>
+                <li class="item"><p>This is a my fourth page</p></li>
+            </ul>
+            <p>This is a pragraph</p>
+        </div>
+        <p>This is a another pragraph</p>
+    </div>
+    <p>This is most another pragraph</p>
+</body>
+</html>

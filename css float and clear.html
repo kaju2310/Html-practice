@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=10">
+    <title>CSS Float and Clear</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body
+    {
+        font-family: 'Inter', sans-serif;
+    }
+    .container
+    {
+        width: 900px;
+        border: 3px solid rgb(240, 167, 240);
+        margin: 33px aut48
+    }
+    .item{
+        border: 3px solid rgb(156, 211, 156);
+        margin: 12px 3px;
+        padding: 12px 3px;
+        background: rgb(243, 168, 138);
+    }
+
+    #fruit
+    {
+        float: left;
+        width: 48%;
+    }
+
+    #computer
+    {
+        float: left;
+        width: 48%;
+    }
+
+    #Stationary
+    {
+        
+        float: left;
+        width: 48%;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h3>Fruit</h3>
+                <p id="fruit" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt accusamus consequatur consectetur dolor! Recusandae rerum quos tempora soluta facilis iste ratione veniam. Fugiat ab similique at perspiciatis possimus, cupiditate iure culpa ducimus excepturi tenetur.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+                <p id="computer" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt accusamus consequatur consectetur dolor! Recusandae rerum quos tempora soluta facilis iste ratione veniam. Fugiat ab similique at perspiciatis possimus, cupiditate iure culpa ducimus excepturi tenetur.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+                <p id="stationary" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt accusamus consequatur consectetur dolor! Recusandae rerum quos tempora soluta facilis iste ratione veniam. Fugiat ab similique at perspiciatis possimus, cupiditate iure culpa ducimus excepturi tenetur.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Animation and Keyframes</title>
+    <style>
+        .container
+        {
+            display: flex;
+            background-color: blueviolet;
+        }
+        .box
+        {
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            animation-name: kajal;
+            animation-duration: 0.7s;
+            animation-iteration-count: 30;
+            animation-fill-mode: alternate;
+            animation-timing-function: ease-out;
+            /* animation-delay: 3s; */
+            /* animation-direction: alternate; */
+            animation-direction: reverse;
+        }
+        @keyframes kajal
+        {
+            form
+            {
+                width: 200px;
+            }
+            to
+            {
+                width: 1400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            This is a Box
+        </div>
+    </div>
+</body>
+</html>
